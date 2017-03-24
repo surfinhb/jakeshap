@@ -1,0 +1,4 @@
+simple Java program that ultilizes a list ADT to organizes lines of input in alphabetical order
+
+type 'make' to compile
+'Lex in out' takes an input file 'in' into the program ouputting to a file 'out'
