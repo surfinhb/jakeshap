@@ -1,0 +1,33 @@
+**** Description ****
+Utilizes a Graph ADT to perform depth first search of a graph.
+
+**** How to Run ****r
+type 'make' to compile
+FindPath input_file output_file
+
+**** Files ****
+List.c
+-list doubly linked list ADT utilized by Graph.c and FindPath.c
+
+List.h
+-header file for List.c
+
+Graph.c
+-performs breath first search order traversal and various other functions 
+-utilized by FindPath.c
+
+Graph.h
+-header file for Graph.c
+
+GraphTest.c
+-Client module used to test Graph.c and Graph.h
+
+FindPath.c
+-Uses pieces of Graph.c and List.c to implement pathing
+
+Makefile
+-Creates executable file FindPath
+-Also can create executable GraphTest by make GraphTest
+
+README
+-este  
