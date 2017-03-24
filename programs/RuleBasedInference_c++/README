@@ -1,0 +1,43 @@
+original project can be found here: 
+https://github.com/formichi3/CMPS109/tree/master/classes/test/ActualActualInfer
+_____________________________________________________________________
+
+The Assigment:  create a virtual machine capable of inferencing logic.
+
+Specifically what we had to do...
+
+1.) allow user to manage two sets of data, facts and rules, which are represented in a
+horn clause like format.
+
+2.) allow user to inquire about facts through inferencing rules.
+
+3.) allow user to make an inference a rule of a fact. For instance, using the above KB
+and RB
+
+Example...
+
+user input:
+fact Mother(Marry,John)
+fact Father(Allen,Margret)
+fact Mother(Margret,Robert)
+fact Mother(Margret,Bob)
+rule Parent($X,$Y):- OR Father($X,$Y) Mother($X,$Y)
+rule GrandFather($X,$Y):- AND Father($X,$Z) Parent($Z,$Y)
+infer Parent($X,$Y)
+
+output:
+X Y
+Marry,John
+Allen,Margret
+Margret,Robert
+Margret,Bob
+
+input:
+infer GrandFather($X,$Y)
+
+output:
+X Y
+Allen Albert
+Allen Bob
+
+for more information see RBI_problemDescription.pdf
