@@ -1,0 +1,58 @@
+{
+    "0": {
+        "key": "0",
+        "name": "Basic Button",
+        "height": 15,
+        "width": 9,
+        "topLeftOffset": [-4, -14],
+        "botRightOffset": [4, 0],
+        "goalOffset": [0, -15],
+        "config": [
+            [0, 0, 0],
+            [0, 0, 0],
+            [0, 0, 0]
+        ]
+    },
+    "1": {
+        "key": "1",
+        "name": "Trust",
+        "height": 11,
+        "width": 19,
+        "topLeftOffset": [-9, 0],
+        "botRightOffset": [9, 10],
+        "goalOffset": [0, 13],
+        "config": [
+            [1, 0, 1],
+            [0, 0, 0],
+            [1, 0, 1]
+        ]
+    },
+    "2": {
+        "key": "2",
+        "name": "Mars",
+        "height": 10,
+        "width": 30,
+        "topLeftOffset": [0, -4],
+        "botRightOffset": [30, 7],
+        "goalOffset": [28, -6],
+        "config": [
+            [0, 1, 0],
+            [1, 0, 1],
+            [0, 1, 0]
+        ]
+    },
+    "3": {
+        "key": "3",
+        "name": "Sacrifice",
+        "height": 23,
+        "width": 11,
+        "topLeftOffset": [-5, -22],
+        "botRightOffset": [5, 0],
+        "goalOffset": [0, -20.2],
+        "config": [
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 1, 1]
+        ]
+    }
+}
